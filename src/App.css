@@ -1,0 +1,22 @@
+.main{
+  height: 100vh;
+  background-position: center center;
+  background-color: rgb(244, 206, 157);
+  background-size: 30% 30%;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* background-image: url("C:\Users\devan\OneDrive\Desktop\YouTube\LOGO-Transparent.png"); */
+}
+
+.App {
+  margin: 20px;
+  margin-top: 0px;
+  text-align: center;
+  border-radius: 25px;
+  width:650px;
+  padding: 10px;
+  background-color:rgba(75, 16, 16, 0.238);
+  backdrop-filter: blur(7px);
+}

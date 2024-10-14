@@ -1,0 +1,137 @@
+button{
+    margin: 1px;
+    height: 42px;
+    width: 42px;
+    font-size: 15px ;
+    background-color: black;
+    color: azure;
+    border-radius: 50px;
+    font-family:monospace;
+    border-color: white;
+    border:2px solid;   
+}
+
+
+sup{
+    font-size: 10px;
+}
+
+
+button:hover{
+    background-color: white;
+    color: black;
+    cursor:pointer;
+}
+
+input{
+    width: 300px;
+    height: auto;
+    margin: 20px;
+    white-space: nowrap;
+    font-size:30px;
+    overflow-wrap: break-word;
+}
+
+.numbers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 2.5px;
+}
+.backtick{
+    width: 30px;
+}
+
+.backspace{
+    width: 65px;
+    font-size: 8px;
+    text-align: right;
+}
+
+.qwerty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2.5px;
+    padding-top: 2.5px;
+}
+
+.tab{
+    width: 50px;
+    font-size: 10px;
+    text-align: left;
+}
+
+.slash{
+    width: 45px;
+}
+
+.asdfg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+}
+
+.enter{
+    width: 70px;
+    font-size: 10px;
+    text-align: right;
+}
+
+.capsl{
+    width: 65px;
+    font-size: 10px;
+    text-align: left;
+}
+
+.zxcvb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2.5px;
+    padding-top: 2.5px;
+}
+
+.l{
+    width: 87px;
+    font-size: 10px;
+    text-align: left;
+}
+
+.r{
+    width:87px;
+    font-size: 10px;
+    text-align: right;
+}
+.shift{
+    width: 90px;
+}
+
+.dark{
+    color: white;
+    background-color: black;
+}
+
+.light{
+    color: black;
+    background-color: white;
+}
+
+.sb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 2.5;
+}
+.spacebar{
+    width: 300px;
+}
+
+.capsl:active,.shift:active{
+    color: black;
+    background-color: white;
+}
