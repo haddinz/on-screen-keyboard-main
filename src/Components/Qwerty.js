@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../App.css";
 import "./Qwerty.css";
 
 function Qwerty() {
@@ -109,10 +110,10 @@ function Qwerty() {
             {/* <div className="nonalphanumeric">
           <button className="backtick" onClick={() => handleButtonClick("`")}>
             <sup>~ </sup>`
-          </button>
+          </button>sup
         </div> */}
 
-            <div>
+            <div className="button">
               <button onClick={() => handleButtonClick("1")}>
                 <sup>! </sup>1
               </button>
@@ -344,6 +345,7 @@ function Qwerty() {
               Enter
             </button>
           </div>
+
         </div>
       </div>
     </>
