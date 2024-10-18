@@ -337,7 +337,7 @@ function Qwerty() {
             <button
               className="spacebar"
               onClick={() => handleButtonClick("spacebar")}
-            ></button>
+            >spacebar</button>
             <button
               className="enter"
               onClick={() => handleButtonClick("enter")}
